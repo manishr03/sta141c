@@ -5,7 +5,7 @@ UC Davis SQ 2024 STA141C Final Project
 (All of this is done using the terminal and the GitHub interface)
 
 # Cloning the Repository to your Machine
-In your terminal, nagivate to a place where you want to save the GitHub repository locally. You can do this by running 'cd $\directory_you_want_to_save_the_repository_in$' Then, navigate to the repository homepage on GitHub. Click the green "Code" button. Copy the link that's shown in the dropdown. In your terminal (while you're in the appropriate directory), run 'git clone "the_link_you_copied"'. This will clone the repository to your machine. 
+In your terminal, nagivate to a place where you want to save the GitHub repository locally. You can do this by running 'cd "directory_you_want_to_save_the_repository_in"' Then, navigate to the repository homepage on GitHub. Click the green "Code" button. Copy the link that's shown in the dropdown. In your terminal (while you're in the appropriate directory), run 'git clone "the_link_you_copied"'. This will clone the repository to your machine. 
 
 ## Switching between branches 
 Running 'git checkout "branch_name"' allows you to switch to different branches. You'll almost want to stay in your own branch.
