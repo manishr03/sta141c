@@ -11,7 +11,7 @@ In your terminal, nagivate to a place where you want to save the GitHub reposito
 Running 'git checkout "branch_name"' allows you to switch to different branches. You'll almost want to stay in your own branch.
 
 ## Push Requests
-* NEVER PUSH TO MAIN *
+### NEVER PUSH TO MAIN
 Once you've completed a task, you'll want to push your code to your branch. To do this, make sure you are currently checked into your own branch. To do this, run 'git checkout "your_branch"' to check into your branch. Then, run 'git add "your_file_name"' to stage your changes. This doesn't push anything; think of it as prepping your file to be pushed. If you want to stage changes for all your files, you can type "git add .". The period stages changes for every file in the git folder. After that, run 'git commit -m "a message about what your new code does"'. Adding the message will help users understand what changes you've made. Once you've done that, run "git push". This will push your code to your branch. 
 
 ## Pull Requests 
