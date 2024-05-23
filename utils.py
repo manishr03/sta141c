@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+import scipy.stats
 
 # Data Type Classifier
 def data_type_classifier(df, distinguish_numeric = False):
@@ -26,7 +29,6 @@ def data_type_classifier(df, distinguish_numeric = False):
             elif df[i].nunique() > 2 and df[i].nunique() <= 10:
                 data_type_dict[i] = 'Categorical'
             else:
-                if data_type_dict[i]
                 data_type_dict[i] = 'Continuous'
 
         return data_type_dict
@@ -57,7 +59,7 @@ def compute_phi_matrix(df):
                 corr_matrix.iloc[j, i] = corr
     return corr_matrix
 
-# Function to get top 5 most correlated predictors
+# Function to get top 5 most correlated predictors - used in the next function (don't actually need to use this function)
 def get_top_correlated_predictors(corr_matrix, predictor, top_n=5):
     if predictor not in corr_matrix.columns:
         raise ValueError(f"Predictor '{predictor}' not found in the DataFrame.")
